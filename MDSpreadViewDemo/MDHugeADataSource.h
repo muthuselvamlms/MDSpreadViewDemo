@@ -11,4 +11,6 @@
 
 @interface MDHugeADataSource : NSObject <MDSpreadViewDataSource, MDSpreadViewDelegate>
 
+@property (nonatomic, weak) UIView *view;
+
 @end

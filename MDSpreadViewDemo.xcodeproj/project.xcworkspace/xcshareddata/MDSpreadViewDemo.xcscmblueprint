@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7E2658723AF840C982379CC9BD1291A68BE0DFE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0F08D0B94EB4A30448DC69880C541C7A61D4FA52" : 0,
+    "7E2658723AF840C982379CC9BD1291A68BE0DFE2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BC26A365-8C93-4C94-9619-6236AAC7AC03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0F08D0B94EB4A30448DC69880C541C7A61D4FA52" : "MDSpreadViewDemo\/MDSpreadViewDemo\/MDSpreadView\/",
+    "7E2658723AF840C982379CC9BD1291A68BE0DFE2" : "MDSpreadViewDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MDSpreadViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MDSpreadViewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/muthuselvamlms\/MDSpreadView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F08D0B94EB4A30448DC69880C541C7A61D4FA52"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/muthuselvamlms\/MDSpreadViewDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E2658723AF840C982379CC9BD1291A68BE0DFE2"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "North"; ObjectID = "10"; */
+"10.normalTitle" = "North";
+
+/* Class = "UIButton"; normalTitle = "South"; ObjectID = "11"; */
+"11.normalTitle" = "South";
+
+/* Class = "UIButton"; normalTitle = "West"; ObjectID = "12"; */
+"12.normalTitle" = "West";
+
+/* Class = "UIButton"; normalTitle = "East"; ObjectID = "13"; */
+"13.normalTitle" = "East";
+
+/* Class = "UIButton"; normalTitle = "Reload"; ObjectID = "20"; */
+"20.normalTitle" = "Reload";
+
+/* Class = "UISegmentedControl"; ugP-yM-eBq.segmentTitles[0] = "Huge A"; ObjectID = "ugP-yM-eBq"; */
+"ugP-yM-eBq.segmentTitles[0]" = "Huge A";
+
+/* Class = "UISegmentedControl"; ugP-yM-eBq.segmentTitles[1] = "Huge B"; ObjectID = "ugP-yM-eBq"; */
+"ugP-yM-eBq.segmentTitles[1]" = "Huge B";
+
+/* Class = "UISegmentedControl"; ugP-yM-eBq.segmentTitles[2] = "Sortable"; ObjectID = "ugP-yM-eBq"; */
+"ugP-yM-eBq.segmentTitles[2]" = "Sortable";

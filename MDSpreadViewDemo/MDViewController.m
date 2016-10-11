@@ -36,6 +36,10 @@
 #import "MDHugeBDataSource.h"
 #import "MDSortableDataSource.h"
 
+@interface MDViewController ()
+@property (nonatomic, strong) UILabel *label;
+@end
+
 @implementation MDViewController
 @synthesize spreadView;
 
@@ -60,10 +64,11 @@
     
     spreadView.delegate = self.hugeA;
     spreadView.dataSource = self.hugeA;
-    
-//    spreadView.allowsRowHeaderSelection = YES;
-//    spreadView.allowsColumnHeaderSelection = YES;
-//    spreadView.allowsCornerHeaderSelection = YES;
+    spreadView.allowsSelection = YES;
+    spreadView.selectionMode = MDSpreadViewSelectionModeCell;
+    spreadView.allowsRowHeaderSelection = YES;
+    spreadView.allowsColumnHeaderSelection = YES;
+    spreadView.allowsCornerHeaderSelection = YES;
     
 //    spreadView.contentInset = UIEdgeInsetsMake(44*3, 300, 44*3, 300);
 //    spreadView.clipsToBounds = NO;
@@ -83,6 +88,11 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    [self performSelector:@selector(bringSubviewToFront) withObject:nil afterDelay:0.5];
+}
+
+- (void) bringSubviewToFront {
+    [self.view bringSubviewToFront:self.label];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -114,6 +124,7 @@
 {
     if (!_hugeA) {
         _hugeA = [[MDHugeADataSource alloc] init];
+        _hugeA.view = self.view;
     }
     return _hugeA;
 }

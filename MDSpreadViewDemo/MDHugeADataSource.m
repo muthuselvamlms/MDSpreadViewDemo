@@ -7,6 +7,7 @@
 //
 
 #import "MDHugeADataSource.h"
+#import "UIView+Toast.h"
 
 @implementation MDHugeADataSource
 
@@ -188,6 +189,7 @@
 {
 //    [aSpreadView deselectCellForRowAtIndexPath:rowPath forColumnAtIndexPath:columnPath animated:YES];
     NSLog(@"Selected %@ x %@", rowPath, columnPath);
+    [self.view makeToast:[NSString stringWithFormat:@"%@ === %@",rowPath,columnPath]];
 }
 
 - (MDSpreadViewSelection *)spreadView:(MDSpreadView *)aSpreadView willHighlightCellWithSelection:(MDSpreadViewSelection *)selection

@@ -64,6 +64,7 @@
 		65D846CA144AB922005603DD /* MDSpreadViewCellRowHeaderBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D846C9144AB921005603DD /* MDSpreadViewCellRowHeaderBackground.m */; };
 		65D846CD144ABABC005603DD /* MDSpreadViewCellColumnHeaderBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D846CC144ABABB005603DD /* MDSpreadViewCellColumnHeaderBackground.m */; };
 		65D846D0144ABAD4005603DD /* MDSpreadViewCellCornerHeaderBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D846CF144ABAD3005603DD /* MDSpreadViewCellCornerHeaderBackground.m */; };
+		67D79D241DACDEE9008656F1 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D79D231DACDEE9008656F1 /* UIView+Toast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,8 +104,6 @@
 		65D84659144A82A5005603DD /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
 		65D8465B144A82A5005603DD /* MDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
 		65D8465C144A82A5005603DD /* MDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MDViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		65D8465F144A82A5005603DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDViewController_iPhone.xib; sourceTree = "<group>"; };
-		65D84662144A82A5005603DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDViewController_iPad.xib; sourceTree = "<group>"; };
 		65D84669144A8392005603DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		65D8467A144A86DC005603DD /* MDSpreadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MDSpreadView.h; sourceTree = "<group>"; };
 		65D8467B144A86DC005603DD /* MDSpreadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MDSpreadView.m; sourceTree = "<group>"; };
@@ -141,6 +140,13 @@
 		65D846CE144ABAD2005603DD /* MDSpreadViewCellCornerHeaderBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSpreadViewCellCornerHeaderBackground.h; sourceTree = "<group>"; };
 		65D846CF144ABAD3005603DD /* MDSpreadViewCellCornerHeaderBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSpreadViewCellCornerHeaderBackground.m; sourceTree = "<group>"; };
 		65D846D1144AC00B005603DD /* MDSpreadViewClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MDSpreadViewClasses.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		67D79D221DACDEE9008656F1 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		67D79D231DACDEE9008656F1 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		67D79D251DACFCEB008656F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MDViewController_iPhone.xib; sourceTree = "<group>"; };
+		67D79D261DACFCEB008656F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MDViewController_iPad.xib; sourceTree = "<group>"; };
+		67D79D271DACFCF3008656F1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/MDViewController_iPhone.strings; sourceTree = "<group>"; };
+		67D79D281DACFCF3008656F1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/MDViewController_iPad.strings; sourceTree = "<group>"; };
+		67D79D291DACFCF3008656F1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +197,8 @@
 		65D8464F144A82A5005603DD /* MDSpreadViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				67D79D221DACDEE9008656F1 /* UIView+Toast.h */,
+				67D79D231DACDEE9008656F1 /* UIView+Toast.m */,
 				65D84658144A82A5005603DD /* MDAppDelegate.h */,
 				65D84659144A82A5005603DD /* MDAppDelegate.m */,
 				65D8465B144A82A5005603DD /* MDViewController.h */,
@@ -328,7 +336,7 @@
 		65D8463C144A82A5005603DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Mochi Development, Inc.";
 			};
 			buildConfigurationList = 65D8463F144A82A5005603DD /* Build configuration list for PBXProject "MDSpreadViewDemo" */;
@@ -337,6 +345,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				ar,
 			);
 			mainGroup = 65D8463A144A82A5005603DD;
 			productRefGroup = 65D84646144A82A5005603DD /* Products */;
@@ -407,6 +417,7 @@
 				65D8465A144A82A5005603DD /* MDAppDelegate.m in Sources */,
 				65D8465D144A82A5005603DD /* MDViewController.m in Sources */,
 				65AA64ED190B570B009C8125 /* MDSortableDataSource.m in Sources */,
+				67D79D241DACDEE9008656F1 /* UIView+Toast.m in Sources */,
 				65D8467E144A86DC005603DD /* MDSpreadView.m in Sources */,
 				65D846BD144AA836005603DD /* MDSpreadViewCell.m in Sources */,
 				65AA64E7190B564A009C8125 /* MDHugeADataSource.m in Sources */,
@@ -426,6 +437,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				65D84653144A82A5005603DD /* en */,
+				67D79D291DACFCF3008656F1 /* ar */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -433,7 +445,8 @@
 		65D8465E144A82A5005603DD /* MDViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65D8465F144A82A5005603DD /* en */,
+				67D79D251DACFCEB008656F1 /* Base */,
+				67D79D271DACFCF3008656F1 /* ar */,
 			);
 			name = MDViewController_iPhone.xib;
 			sourceTree = "<group>";
@@ -441,7 +454,8 @@
 		65D84661144A82A5005603DD /* MDViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65D84662144A82A5005603DD /* en */,
+				67D79D261DACFCEB008656F1 /* Base */,
+				67D79D281DACFCF3008656F1 /* ar */,
 			);
 			name = MDViewController_iPad.xib;
 			sourceTree = "<group>";
@@ -458,11 +472,15 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -493,10 +511,13 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -521,6 +542,7 @@
 				GCC_PREFIX_HEADER = "MDSpreadViewDemo/MDSpreadViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "MDSpreadViewDemo/MDSpreadViewDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mochidev.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -534,6 +556,7 @@
 				GCC_PREFIX_HEADER = "MDSpreadViewDemo/MDSpreadViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "MDSpreadViewDemo/MDSpreadViewDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mochidev.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
